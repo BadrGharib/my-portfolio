@@ -23,7 +23,7 @@ function Education (props: {}): ReactElement {
               />
             </div>
             <div>
-              <h2 className="text-[26px] m-5" style={{ lineHeight: '1px' }}>
+              <h2 className="text-[26px] m-5">
                 B. Sc. Computer Science
               </h2>
 
