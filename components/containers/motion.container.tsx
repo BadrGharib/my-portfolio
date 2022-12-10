@@ -1,23 +1,23 @@
-import React, { ReactNode, useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import React, { ReactElement, ReactNode, useEffect } from 'react'
+import { motion, useAnimation } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
 
-export default function ViewOnScroll({ children }: { children: ReactNode }) {
+export default function ViewOnScroll ({ children }: { children: ReactNode }): ReactElement {
   const boxVariant = {
     visible: { opacity: 1, transition: { duration: 0.8 }, y: 0 },
-    hidden: { opacity: 0, y: 50 },
-  };
+    hidden: { opacity: 0, y: 50 }
+  }
 
-  const control = useAnimation();
-  const [ref, inView] = useInView();
+  const control = useAnimation()
+  const [ref, inView] = useInView()
 
   useEffect(() => {
     if (inView) {
-      control.start("visible");
+      control.start('visible')
     } else {
-      control.start("hidden");
+      control.start('hidden')
     }
-  }, [control, inView]);
+  }, [control, inView])
 
   return (
     <motion.div
@@ -29,5 +29,5 @@ export default function ViewOnScroll({ children }: { children: ReactNode }) {
     >
       {children}
     </motion.div>
-  );
+  )
 }
