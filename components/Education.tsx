@@ -16,7 +16,7 @@ function Education (props: {}): ReactElement {
             <div className="flex justify-center items-center rounded-[50%] w-[100px] h-[100px] border border-gray-300">
               <Image
                 src={'/imgs/assuit.jpg'}
-                className=""
+                className="w-[80%]"
                 alt=""
                 width={600}
                 height={300}
