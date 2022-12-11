@@ -30,21 +30,22 @@ function NavBar ({
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link href="/" className="flex items-center">
-          {/* <Image
+          <Image
             src={logo}
             className="mr-3 sm:h-14 sm:w-14 rounded-full w-9 h-9"
             alt="Badr Gharib"
             width={50}
             height={50}
-          /> */}
+          />
           <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white tracking-widest first-letter:text-blue-800 first-letter:text-[28px] first-letter:font-bold">
-            <Image
-              src="/imgs/badr-logo.png"
+          {/* <Image
+              src="/imgs/badr-logo2.png"
               className="ml-3 h-full"
               alt="Badr Gharib"
               width={50}
               height={50}
-            />
+            /> */}
+          {title}
           </span>
         </Link>
         <button
