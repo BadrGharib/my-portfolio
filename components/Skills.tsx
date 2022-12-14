@@ -15,8 +15,8 @@ function Skills (props: {}): ReactElement {
         <Title>Skills</Title>
           {
             Object.values(groupdSkills).map((group, indx) => {
-              return <div key={indx} className="flex justify-start items-center  flex-wrap">
-              <GoTriangleRight className='fill-gray-600 w-5 h-5 hidden md:block'/>
+              return <div key={indx} className="flex justify-start items-center  relative flex-wrap">
+              <GoTriangleRight className='fill-gray-600 w-5 h-5 absolute top-[40px]'/>
               {group.map((skill, indx) => {
                 return (
                   <div key={indx} className="p-2 flex justify-center">
