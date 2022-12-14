@@ -4,7 +4,7 @@ import ViewOnScroll from './containers/motion.container'
 import Title from './controls/Title'
 import SkillCard from './controls/SkillCard'
 import { groupBy } from '../utils/helpers'
-import {GoTriangleRight} from 'react-icons/go'
+import { GoTriangleRight } from 'react-icons/go'
 
 function Skills (props: {}): ReactElement {
   const groupdSkills = groupBy(skills, 'group')
@@ -24,7 +24,7 @@ function Skills (props: {}): ReactElement {
                   </div>
                 )
               })}
-             
+
             </div>
             })
           }
