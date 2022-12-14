@@ -27,7 +27,7 @@ function Header (): ReactElement {
       href: '#Languages'
     },
     {
-      title: 'ConatctMe',
+      title: 'Conatct Me',
       href: '#ConatctMe'
     }
   ]

@@ -10,12 +10,12 @@ function Projects (props: {}): ReactElement {
       <ViewOnScroll>
         <Title>Projects</Title>
 
-        <div className="flex items-stretch flex-wrap">
+        <div className="flex items-stretch justify-between  flex-wrap">
           {projects.map((project, indx) => {
             return (
               <div
                 key={indx}
-                className="p-2 w-[90%] md:w-1/2 lg:w-1/3 flex justify-center"
+                className="p-2 w-[90%] lg:w-[48%]  flex justify-center"
               >
                 <Card {...project} />
               </div>

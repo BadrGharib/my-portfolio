@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function Education (props: {}): ReactElement {
   return (
-    <div>
+    <div className="mt-12">
       <ViewOnScroll>
         <Title>Education</Title>
 

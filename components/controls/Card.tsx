@@ -28,7 +28,7 @@ function Card ({ imgs, title, description, link, logo, smallTitle }: CardInfo): 
           <div className="h-[250px] w-full flex items-center justify-center flex-wrap relative rounded-xl shadow-md">
             <Image
               src={selectedImg}
-              className="h-full w-full mb-1 transition-all rounded-xl border-gray-500 object-contain"
+              className="h-full w-full mb-1 transition-all rounded-xl border-gray-500 object-cover bg-[#c6c6d8]"
               alt=""
               width={1920}
               height={1080}

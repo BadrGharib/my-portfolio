@@ -2,6 +2,7 @@ import React, { ReactElement } from 'react'
 import Link from 'next/link'
 import { GoMarkGithub } from 'react-icons/go'
 import { FaLinkedinIn } from 'react-icons/fa'
+import {MdPictureAsPdf} from 'react-icons/md'
 
 function Profile (): ReactElement {
   return (
@@ -22,14 +23,17 @@ function Profile (): ReactElement {
       </div>
        <div className="flex lg:flex-col justify-center items-center flex-wrap w-[100%] lg:w-[20%]">
           <Link href="https://github.com/BadrGharib" target="_blank" passHref>
-            <GoMarkGithub className="h-[50px] w-[50px] rounded-xl m-2 fill-blue-800 animate-pulse" />
+            <GoMarkGithub className="h-[40px] w-[40px] rounded-xl m-2 fill-blue-800 animate-pulse" />
           </Link>
           <Link
             href="https://www.linkedin.com/in/badr-gharib/"
             target="_blank"
             passHref
           >
-            <FaLinkedinIn className="h-[50px] w-[50px] rounded-xl m-2 fill-blue-800 animate-pulse" />
+            <FaLinkedinIn className="h-[40px] w-[40px] rounded-xl m-2 fill-blue-800 animate-pulse" />
+          </Link>
+          <Link href="/doc/Badr Gharib -Technical Lead Frontend React.pdf" target="_blank" passHref>
+            <MdPictureAsPdf className="h-[40px] w-[40px] rounded-xl m-2 fill-blue-800 animate-pulse" />
           </Link>
         </div>
     </div>

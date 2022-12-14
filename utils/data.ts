@@ -69,10 +69,13 @@ export const projects: CardInfo[] = [
         everything happened around him (react, redux).
         `,
     imgs: [
-      '/imgs/parsifal1.png',
-      '/imgs/parsifal2.png',
-      '/imgs/parsifal3.jpg',
-      '/imgs/parsifal4.png'
+      '/imgs/parsifal-all-2.png'
+      // '/imgs/parsifal1.png',
+      // '/imgs/parsifal2.png',
+      // '/imgs/parsifal3.jpg',
+      // '/imgs/parsifal4.png',
+      // '/imgs/parsifal5.png',
+      // '/imgs/parsifal6.png'
     ]
   },
   {
@@ -84,17 +87,17 @@ export const projects: CardInfo[] = [
     imgs: ['/imgs/covid19.png']
   },
   {
-    title: 'Face Recognition Project for Egyptian Grand Museum',
-    description: `It’s a web-based project used to detect persons based on a predefined
-        lists using their faces (react, redux)
-        `,
-    imgs: ['/imgs/covid19.png']
-  },
-  {
     title: 'LOHINGRIN',
     description: `It’s a web-based application that gives a cloud service for any organization to get up to the minute information on the events using machine learning and IOT (react, redux) . 
         `,
     imgs: ['/imgs/lohingen1.png', '/imgs/lohingen2.png']
+  },
+  {
+    title: 'Face Recognition Project for Egyptian Grand Museum',
+    description: `It’s a web-based project used to detect persons based on a predefined
+        lists using their faces (react, redux)
+        `,
+    imgs: []
   },
   {
     title: 'Other Projects',
@@ -129,103 +132,123 @@ export const skills: ISkillCard[] = [
   {
     title: 'React',
     icon: '/imgs/react.png',
-    percent: 90
+    percent: 90,
+    group:'1'
   },
   {
     title: 'Next',
     icon: '/imgs/next.png',
-    percent: 80
+    percent: 80,
+    group:'1'
   },
   {
     title: 'Redux',
     icon: '/imgs/redux.svg',
-    percent: 90
+    percent: 90,
+    group:'1'
   },
   /// //////////
   {
     title: 'JavaScript',
     icon: '/imgs/javascript.png',
-    percent: 90
+    percent: 90,
+    group:'2'
   },
   {
     title: 'ES6',
     icon: '/imgs/es6.png',
-    percent: 90
+    percent: 90,
+    group:'2'
   },
   {
     title: 'TypeScript',
     icon: '/imgs/ts.png',
-    percent: 70
+    percent: 80,
+    group:'2'
   },
   /// /////
   {
+    title: 'HTML',
+    icon: '/imgs/html.png',
+    percent: 90,
+    group:'3'
+  },
+  {
     title: 'CSS',
     icon: '/imgs/css.png',
-    percent: 90
+    percent: 90,
+    group:'3'
   },
   {
     title: 'Tailwind css',
     icon: '/imgs/tailwind.png',
-    percent: 70
+    percent: 70,
+    group:'3'
   },
   {
     title: 'SCSS',
     icon: '/imgs/scss.png',
-    percent: 80
+    percent: 80,
+    group:'3'
   },
   {
-    title: 'HTML',
-    icon: '/imgs/html.png',
-    percent: 90
-  },
-  {
-    title: 'Axios',
-    icon: '/imgs/axois.png',
-    percent: 80
+    title: 'Rest API',
+    icon: '/imgs/api_rest.png',
+    percent: 80,
+    group:'4'
   },
   {
     title: 'GraphQL',
     icon: '/imgs/graphQl.png',
-    percent: 60
+    percent: 60,
+    group:'4'
   },
   {
     title: 'Jest',
     icon: '/imgs/jest.png',
-    percent: 80
+    percent: 80,
+    group:'5'
   },
   {
     title: 'Git',
     icon: '/imgs/git.png',
-    percent: 90
+    percent: 90,
+    group:'6'
   },
   {
     title: 'Docker',
     icon: '/imgs/docker.png',
-    percent: 70
+    percent: 70,
+    group:'6'
   },
   {
     title: 'CI/CD',
     icon: '/imgs/cicd.png',
-    percent: 60
+    percent: 60,
+    group:'6'
   },
   {
     title: 'Jenkins',
     icon: '/imgs/Jenkins.png',
-    percent: 60
+    percent: 60,
+    group:'6'
   },
   {
     title: 'AWS',
     icon: '/imgs/aws.png',
-    percent: 80
+    percent: 80,
+    group:'6'
   },
   {
     title: 'C#',
     icon: '/imgs/csharb.png',
-    percent: 50
+    percent: 50,
+    group:'7'
   },
   {
     title: 'UNity 3D (AR)',
     icon: '/imgs/unity3d.png',
-    percent: 40
+    percent: 40,
+    group:'7'
   }
 ]

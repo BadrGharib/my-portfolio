@@ -21,6 +21,7 @@ export interface ISkillCard {
   title: string
   icon: string
   percent: number
+  group: string
 }
 export interface IItem {
   title: string
