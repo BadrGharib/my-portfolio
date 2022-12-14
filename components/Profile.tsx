@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react'
 import Link from 'next/link'
 import { GoMarkGithub } from 'react-icons/go'
 import { FaLinkedinIn } from 'react-icons/fa'
-import {MdPictureAsPdf} from 'react-icons/md'
+import { MdPictureAsPdf } from 'react-icons/md'
 
 function Profile (): ReactElement {
   return (

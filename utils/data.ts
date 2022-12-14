@@ -133,122 +133,122 @@ export const skills: ISkillCard[] = [
     title: 'React',
     icon: '/imgs/react.png',
     percent: 90,
-    group:'1'
+    group: '1'
   },
   {
     title: 'Next',
     icon: '/imgs/next.png',
     percent: 80,
-    group:'1'
+    group: '1'
   },
   {
     title: 'Redux',
     icon: '/imgs/redux.svg',
     percent: 90,
-    group:'1'
+    group: '1'
   },
   /// //////////
   {
     title: 'JavaScript',
     icon: '/imgs/javascript.png',
     percent: 90,
-    group:'2'
+    group: '2'
   },
   {
     title: 'ES6',
     icon: '/imgs/es6.png',
     percent: 90,
-    group:'2'
+    group: '2'
   },
   {
     title: 'TypeScript',
     icon: '/imgs/ts.png',
     percent: 80,
-    group:'2'
+    group: '2'
   },
   /// /////
   {
     title: 'HTML',
     icon: '/imgs/html.png',
     percent: 90,
-    group:'3'
+    group: '3'
   },
   {
     title: 'CSS',
     icon: '/imgs/css.png',
     percent: 90,
-    group:'3'
+    group: '3'
   },
   {
     title: 'Tailwind css',
     icon: '/imgs/tailwind.png',
     percent: 70,
-    group:'3'
+    group: '3'
   },
   {
     title: 'SCSS',
     icon: '/imgs/scss.png',
     percent: 80,
-    group:'3'
+    group: '3'
   },
   {
     title: 'Rest API',
     icon: '/imgs/api_rest.png',
     percent: 80,
-    group:'4'
+    group: '4'
   },
   {
     title: 'GraphQL',
     icon: '/imgs/graphQl.png',
     percent: 60,
-    group:'4'
+    group: '4'
   },
   {
     title: 'Jest',
     icon: '/imgs/jest.png',
     percent: 80,
-    group:'5'
+    group: '5'
   },
   {
     title: 'Git',
     icon: '/imgs/git.png',
     percent: 90,
-    group:'6'
+    group: '6'
   },
   {
     title: 'Docker',
     icon: '/imgs/docker.png',
     percent: 70,
-    group:'6'
+    group: '6'
   },
   {
     title: 'CI/CD',
     icon: '/imgs/cicd.png',
     percent: 60,
-    group:'6'
+    group: '6'
   },
   {
     title: 'Jenkins',
     icon: '/imgs/Jenkins.png',
     percent: 60,
-    group:'6'
+    group: '6'
   },
   {
     title: 'AWS',
     icon: '/imgs/aws.png',
     percent: 80,
-    group:'6'
+    group: '6'
   },
   {
     title: 'C#',
     icon: '/imgs/csharb.png',
     percent: 50,
-    group:'7'
+    group: '7'
   },
   {
     title: 'UNity 3D (AR)',
     icon: '/imgs/unity3d.png',
     percent: 40,
-    group:'7'
+    group: '7'
   }
 ]
